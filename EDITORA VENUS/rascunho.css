@@ -1,0 +1,105 @@
+/* Reset de margens e preenchimentos */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header { text-align: center;
+    box-shadow:0px 0px 20px rgba (0, 0, 0, 0.1,);
+    background: black;
+    position: fixed;
+    width:100%;
+    height:px;
+    top:0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+ 
+
+    
+} 
+
+/* Estilo para o logotipo */
+header img {
+    vertical-align: middle; /* Alinha verticalmente a imagem com o texto na lista */
+}
+
+/* Estilo para a lista */
+ul { color: purple;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Estilo para a imagem dentro da lista */
+/* ajusta o tamanho das imagens quando há redução de tela 
+
+   /* Garante que a proporção da imagem seja mantida */
+
+   div h5 {
+    color: black;
+    margin: 30px;
+    margin-left: 30px;
+    margin-right:50px;
+    font-family:'Franklin Gothic Medium';
+    list-style: none;
+    display: block;
+    width: 150px;
+    height: auto;
+    justify-content:space-around; 
+    flex-wrap: wrap;
+}
+
+
+
+/*ul e li usados para criar listas não ordenadas em páginas da web*/
+ul li p {
+    margin: 0; /* Remove margem padrão do parágrafo */
+}
+
+
+div {
+    text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+/*ESTILO DA IMAGEM MAIOR*/
+div img {
+    display: block; /* Permite que a margem automática seja aplicada para centralizar a imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    height: auto; /* Garante que a proporção da imagem seja mantida */
+}
+
+
+
+.search-container {
+    display: flex; /* Use flexbox para alinhar itens horizontalmente */
+    max-width: 110px; /* Define a largura máxima da barra de pesquisa */
+    margin: 15px; /* Centraliza a barra de pesquisa na página */
+}
+
+/* ESTILO DA ENTRADA DO TEXTO */
+.search-container input[type="text"] {
+    flex: 0; 
+    padding: 10px; /* Adiciona preenchimento interno */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 4px; /* Adiciona bordas arredondadas */
+}
+
+/*ESTILIZANDO A BARRA DE PESQUISA*/
+
+.search-container button[type="submit"] {
+    padding: 5px 10px; /* Adiciona preenchimento interno */
+    background-color: rgb(125, 41, 210); /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    border: none; 
+    border-radius: 4px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+
+}
+
+/* Estilos para o botão de busca ao passar o mouse */
+.search-container button[type="submit"]:hover {
+    background-color: purple; /* Altera a cor de fundo ao passar o mouse */
+}
